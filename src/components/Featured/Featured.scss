@@ -1,0 +1,64 @@
+.featured {
+  height: 90vh;
+  position: relative;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .info {
+    width: 35%;
+    bottom: 70px;
+    left: 50px;
+    position: absolute;
+  }
+
+  .desc {
+    margin: 1em 0;
+  }
+
+  .buttons {
+    display: flex;
+    .more {
+      background-color: gray;
+      color: white;
+    }
+    button {
+      cursor: pointer;
+      margin-right: 1em;
+      border: none;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      padding: 0.5em 0.7em 0.5em 1em;
+      justify-content: space-between;
+      span {
+        margin-left: 0.25em;
+        margin-right: 0.25em;
+      }
+    }
+  }
+}
+
+// category
+
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  font-size: 24px;
+  span {
+    margin-right: 0.6em;
+  }
+  select {
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.5em;
+    padding-right: 0.25em;
+  }
+}
