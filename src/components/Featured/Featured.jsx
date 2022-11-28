@@ -1,4 +1,5 @@
-import { InfoOutlined, PlayArrow } from "@material-ui/icons";
+import InfoOutlined from "@material-ui/icons/InfoOutlined";
+import PlayArrow from "@material-ui/icons/PlayArrow";
 import "./Featured.scss";
 
 const Featured = ({ type }) => {

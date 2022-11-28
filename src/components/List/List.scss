@@ -1,0 +1,39 @@
+.list {
+  margin-bottom: 100px;
+  .list-title {
+    font-size: 20;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+  .wrapper {
+    margin: 1em 0;
+    width: 100%;
+    position: relative;
+  }
+  .icon {
+    cursor: pointer;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 3;
+    background-color: rgba(22, 22, 22, 0.5);
+
+    &.left {
+      left: 0;
+    }
+    &.right {
+      right: 0;
+    }
+  }
+
+  .container {
+    position: relative;
+    margin-left: 50px;
+    display: flex;
+    width: max-content;
+    transition: transform 0.3s ease;
+  }
+}

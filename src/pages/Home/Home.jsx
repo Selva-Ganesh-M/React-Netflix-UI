@@ -1,5 +1,6 @@
-import Featured from "../components/Featured/Featured";
-import Navbar from "../components/Navbar/Navbar";
+import Featured from "../../components/Featured/Featured";
+import List from "../../components/List/List";
+import Navbar from "../../components/Navbar/Navbar";
 import "../Home/Home.scss";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div className="home">
       <Navbar />
       <Featured type="movie" />
+      <List />
     </div>
   );
 };
